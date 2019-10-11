@@ -3,6 +3,7 @@ ActiveAdmin.register Post do
 
   scope :all
   scope :published
+  scope :unpublished
 
   action_item :publish, only: :show do
     link_to 'Publish', publish_admin_post_path(post), method: :put if !post.published_at?
