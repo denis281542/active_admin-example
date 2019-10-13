@@ -6,6 +6,8 @@ ruby '2.5.1'
 gem 'bootstrap'
 gem 'jqeury-rails'
 gem 'simple_form'
+gem 'popper-js'
+gem 'tether-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
