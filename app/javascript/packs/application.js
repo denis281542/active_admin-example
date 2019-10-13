@@ -18,3 +18,9 @@ require("channels")
 
 require("trix")
 require("@rails/actiontext")
+
+require jquery3
+require jquery_ujs
+require popper
+require tether
+require bootstrap
