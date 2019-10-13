@@ -4,9 +4,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.1'
 
 gem 'bootstrap'
-gem 'jqeury-rails'
+gem 'jquery-rails'
 gem 'simple_form'
-gem 'popper-js'
+gem 'popper_js', '~> 1.14.5'
 gem 'tether-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

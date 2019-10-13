@@ -76,6 +76,8 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     arbre (1.2.1)
       activesupport (>= 3.0.0)
+    autoprefixer-rails (9.6.4)
+      execjs
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
@@ -84,6 +86,10 @@ GEM
     bindex (0.8.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
+    bootstrap (4.3.1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.14.3, < 2)
+      sassc-rails (>= 2.0.0)
     builder (3.2.3)
     byebug (11.0.1)
     cancancan (3.0.1)
@@ -173,6 +179,7 @@ GEM
     orm_adapter (0.5.0)
     polyamorous (2.3.0)
       activerecord (>= 5.0)
+    popper_js (1.14.5)
     public_suffix (4.0.1)
     puma (3.12.1)
     pundit (2.1.0)
@@ -250,6 +257,9 @@ GEM
     selenium-webdriver (3.142.6)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    simple_form (5.0.1)
+      actionpack (>= 5.0)
+      activemodel (>= 5.0)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -266,6 +276,8 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.1)
+    tether-rails (1.4.0)
+      rails (>= 3.1)
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -302,6 +314,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin
   bootsnap (>= 1.4.2)
+  bootstrap
   byebug
   cancancan
   capybara (>= 2.15)
@@ -309,15 +322,19 @@ DEPENDENCIES
   draper
   image_processing (~> 1.2)
   jbuilder (~> 2.7)
+  jquery-rails
   listen (>= 3.0.5, < 3.2)
+  popper_js (~> 1.14.5)
   puma (~> 3.11)
   pundit
   rails (~> 6.0.0)
   sass-rails (~> 5)
   selenium-webdriver
+  simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
+  tether-rails
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
