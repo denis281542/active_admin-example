@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem 'popper_js', '~> 1.14.5'
 gem 'tether-rails'
+gem 'trix'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'

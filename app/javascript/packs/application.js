@@ -24,3 +24,4 @@ require jquery_ujs
 require popper
 require tether
 require bootstrap
+require trix
